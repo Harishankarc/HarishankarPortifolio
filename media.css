@@ -59,11 +59,11 @@
         margin-left: 0px;
     }
     #profile{
-        height: 90vh;
+        height: 70vh;
         margin-bottom: 0;
     }
     #projects{
-        height: 270vh;
+        height: 125vh;
     }
     .section__pic-continer img{
         z-index: -1;
@@ -150,5 +150,12 @@
         flex-direction: row;
         gap: 2rem;
         text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 400px){
+    #projects{
+        height: 220vh;
     }
 }
