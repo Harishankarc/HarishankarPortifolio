@@ -137,7 +137,9 @@ section{
     gap: 5rem;
     height: 80vh;
 }
-
+.profilePic{
+    filter: drop-shadow(1px 1px 20px grey);
+}
 .section__pic-continer{
     gap: 5rem;
     display: flex;
